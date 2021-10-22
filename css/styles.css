@@ -31,12 +31,23 @@ a{
 a:hover{
   color: #EAF6F6;
 }
+P{
+  line-height: 2;
+}
+hr{
+  border: dotted #66BFBF 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
 
 
 .top-container{
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
+  bottom: 20px;
 }
 .middle-container{
   margin: 100px 0;
@@ -67,22 +78,6 @@ a:hover{
   margin: 100px auto 100px auto;
   text-align: left;
 }
-P{
-  line-height: 2;
-}
-/* hr{
-  border: dotted #66BFBF 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-} */
-
-hr{
-  border: dotted #66BFBF 6px;
-  border-bottom: none;
-  margin: 100px auto;
-  width: 4%;
-}
 
 .coding-img{
   width: 25%;
@@ -93,6 +88,7 @@ hr{
   width: 25%;
   float: right;
   margin-left: 30px;
+
 }
 
 .intro{
@@ -108,7 +104,6 @@ hr{
   font-size: 0.75em;
   padding: 20px 0;
 }
-
 
 .btn {
    background: #11CDD4;
